@@ -159,6 +159,8 @@ FLAG/
 ├── plugins/                   # User plugins (auto-loaded)
 └── wordlists/                 # Wordlists directory
 ```
+## Screenshot
+![Flag](ss.png)
 
 ## Disclaimer
 
