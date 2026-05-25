@@ -1,0 +1,21 @@
+# FLAG Framework Dependencies
+# Core (required)
+rich>=13.0.0
+
+# Forensics (optional - install if using forensic module)
+Pillow>=10.0.0
+yara-python>=4.0.0
+scapy>=2.5.0
+binwalk>=2.3.0
+
+# Cryptography (optional - install if using crypto module)
+pycryptodome>=3.19.0
+
+# Binary Exploitation (optional - install if using pwn module)
+pwntools>=4.10.0
+capstone>=5.0.0
+
+# Reverse Engineering (optional - install if using reverse module)
+pefile>=2023.0.0
+pyelftools>=0.30
+capstone>=5.0.0

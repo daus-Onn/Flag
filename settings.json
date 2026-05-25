@@ -1,0 +1,36 @@
+{
+  "app": {
+    "name": "FLAG",
+    "version": "2.0",
+    "author": "Flag Team"
+  },
+  "output": {
+    "directory": "outputs",
+    "format": "txt",
+    "save_logs": true
+  },
+  "logging": {
+    "enabled": true,
+    "level": "INFO",
+    "file": "outputs/logs/flag.log"
+  },
+  "modules": {
+    "forensics": {"enabled": true},
+    "crypto": {"enabled": true},
+    "pwn": {"enabled": true},
+    "reverse": {"enabled": true}
+  },
+  "plugins": {
+    "directory": "plugins",
+    "auto_load": true
+  },
+  "wordlists": {
+    "directory": "wordlists"
+  },
+  "theme": {
+    "primary_color": "cyan",
+    "secondary_color": "yellow",
+    "error_color": "red",
+    "success_color": "green"
+  }
+}
