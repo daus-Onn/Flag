@@ -30,12 +30,12 @@ pip install pefile pyelftools capstone                # Reverse
 
 ### CLI Mode
 ```bash
-python main.py <module> <command> [options]
+python flag.py <module> <command> [options]
 ```
 
 ### Interactive Mode
 ```bash
-python main.py
+python flag.py
 ```
 
 ### Global Options
@@ -140,7 +140,7 @@ Edit `settings.json` to customize theme colors, output directory, logging, and m
 
 ```
 FLAG/
-├── main.py                    # Entry point
+├── flag.py                    # Entry point
 ├── settings.json              # Configuration
 ├── requirements.txt           # Dependencies
 ├── core/
