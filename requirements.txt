@@ -6,7 +6,7 @@ rich>=13.0.0
 Pillow>=10.0.0
 yara-python>=4.0.0
 scapy>=2.5.0
-binwalk>=2.3.0
+binwalk>=2.1.0
 
 # Cryptography (optional - install if using crypto module)
 pycryptodome>=3.19.0
