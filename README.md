@@ -15,6 +15,12 @@ A modular CLI cybersecurity framework for CTF competitions and cybersecurity lea
 
 ## Installation
 
+sudo apt update && sudo apt install python3-venv
+
+python3 -m venv Python-env
+
+source Python-env/bin/activate
+
 ### Quick Install
 ```bash
 pip install -r requirements.txt
